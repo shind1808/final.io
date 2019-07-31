@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NightswordRGB</title>
+	<link href="iCue-css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="outer">
+		<div class="header1" style="cursor: pointer;" onclick="window.location='Index.html';">
+		<video autoplay loop class="header">
+			<source src="images/intro.mp4" type="video/mp4">
+		</video>
+		</div>
+		<div class="body1">
+			<div class="body1-1 wow fadeInDown"></div>
+			<div class="body1-2-1">
+				<div class="body1-2-2"><span><b>CHILL OUT IN STYLE</b></span></div>
+				<div class="body1-2-3"><span>Create mesmerizing RGB lighting with a total of 24 RGB LEDs – eight per fan. A translucent 120mm fan blade provides high airflow and static pressure while letting your RGB lighting shine through.
+
+</span></div>
+			</div>
+		</div>
+		<div class="body2">
+			<div class="body2-1 wow fadeInDown"></div>
+			<div class="body2-2-1">
+				<div class="body2-2-2"><span><b>LIGHTING WITHOUT LIMITS</b></span></div>
+				<div class="body2-2-3"><span>Connect up to 6x SP120 RGB fans to the included iCUE Lighting Node CORE compact RGB lighting controller to create dazzling lighting patterns and effects with powerful CORSAIR iCUE software, bringing your system to life with dynamic RGB lighting synchronized across all your iCUE compatible products.
+				</span></div>
+			</div>
+		</div>
+		<div class="body3">
+			<div class="body3-2-1 wow fadeInDown">
+				<div class="body3-2-2"><span><b>KEEP YOUR SYSTEM COOL</b></span></div>
+				<div class="body3-2-3"><span>SP RGB PRO fans offer more than just great looks – cool down your components with powerful fan speeds up to 1,400 RPM, pushing up to 52 CFM of air.
+
+</span></div>
+			</div>
+		</div>
+		<div class="body4">
+			<div class="body7-1 wow fadeInDown"></div>
+			<div class="body7-2 wow fadeInDown">
+				<div class="body7-2-1"><span><b>INTELLIGENT CONTROL. UNLIMITED POSSIBILITIES.</b></span></div>
+				<div class="body7-2-2"><span><b>Powerful CORSAIR iCUE software enables custom audio equalizer settings, sidetone control and immersive virtual surround audio.</b></span></div>
+			</div>
+		</div>
+	</div>
+	<script src="dist/wow.js"></script>
+  
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>

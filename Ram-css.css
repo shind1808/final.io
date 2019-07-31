@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+.outer{
+	width: 1340px;
+	height: 3000px;
+}
+.header{
+	width: 1340px;
+	height: 100px;
+	float: left;
+
+}
+.corsairLogo{
+	width: 1340px;
+	height: 100px;
+
+}
+.videoRam{
+	widows: 1340px;
+	height: 800px;
+}
+.videoRam1{
+	width: 1340px;
+	height: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	min-width: 100%;
+  	min-height: 100%;
+  	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+.videoRam0{
+	width: 1340px;
+	height: 700px;
+	position: relative;
+  	overflow: hidden;
+	color: white;
+	font-family:"UniSansBold";
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	line-height: 1200px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
+}
+.videoram2{
+	width: 1340px;
+	height: 700px;
+	background-color: #E8BB00;
+}
+.showRam{
+	width: 1340px;
+	height: 500px;
+}
+.showRam1{
+	width: 1340px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	min-width: 100%;
+  	min-height: 100%;
+  	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+.showRam0{
+	width: 1340px;
+	height: 500px;
+	position: relative;
+  	overflow: hidden;
+	color: white;
+	font-family:"UniSansBold";
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	line-height: 1200px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
+}
+.showMode{
+	width: 1340px;
+	height: 800px;
+}
+.showMode1{
+	width: 1340px;
+	height: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	min-width: 100%;
+  	min-height: 100%;
+  	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+.showMode0{
+	width: 1340px;
+	height: 800px;
+	position: relative;
+  	overflow: hidden;
+	color: white;
+	font-family:"UniSansBold";
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	line-height: 1200px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
+}
+.intel{
+	width: 1340px;
+	height: 500px;
+	background-color: black;
+}
+.intel1{
+	width: 300px;
+	height: 500px;
+	background-image:url("images/intel1.png");
+	position: relative;
+	animation-name: first;
+  	animation-duration: 2s;
+	z-index: 2;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.intel2{
+	width: 300px;
+	height: 500px;
+	background-image:url("images/intel2.png");
+	position:sticky;
+	animation-name: second;
+  	animation-duration: 2s;
+	z-index: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes first {
+  0%   {left:-50px; top:0px;opacity: 0}
+  100% {left:0px; top:0px;opacity: 1}
+}
+@keyframes second {
+  0%   {left:-100px; top:0px;opacity: 0}
+  100% {left:300px; top:0px;opacity: 1}
+}
+.intel3{
+	width: 400px;
+	height: 200px;
+	position: sticky;
+	z-index: 3;
+	margin-left: 700px;
+	margin-bottom: 200px;
+}
+.intel3-1{
+	width: 400px;
+	height: 30px;
+	color: white;
+	font-size: 25px;
+	font-family: "UniSansBold";
+}
+.intel3-2{
+	width: 400px;
+	height: 30px;
+	color: lightgray;
+	font-size: 18px;
+	font-family: "Uni Sans Book";
+}
+.warranty{
+	width: 1340px;
+	height: 500px;
+	background-image: url("images/ram.jpg");
+}
+.warranty1{
+	width: 350px;
+	height: 500px;
+	margin-left: 480px;
+}
+.warranty2{
+	width: 350px;
+	height: 250px;
+	color: white;
+	font-size: 25px;
+	font-family: "UniSansBold";
+	line-height: 450px;
+	text-align: center;
+}
+.warranty3{
+	width: 350px;
+	height: 250px;
+	color: gray;
+	font-size: 24px;
+	font-family: "UniSansBold";
+	line-height: 20px;
+	text-align: center;
+}
+.compability{
+	width: 1340px;
+	height: 500px;
+	background-color:#0E0E0E;
+}
+.compability1{
+	width: 1340px;
+	height: 200px;
+	float: left;
+	font-size: 25px;
+	font-family: "Uni Sans Book";
+	color: white;
+	text-align: center;
+	line-height: 300px;
+}
+.compability2{
+	width: 1340px;
+	height: 50px;
+	float: left;
+	font-size: 15px;
+	font-family: "Uni Sans Book";
+	color:#C8B400;
+	text-align: center;
+}
+.compability3{
+	width: 1340px;
+	height: 50px;
+	float: left;
+	font-size: 25px;
+	font-family: "Uni Sans Book";
+	color:#ffffff;
+	text-align: center;
+}
+.compability4{
+	width: 500px;
+	height: 100px;
+	margin-left: 400px;
+}
+.compability4-1{
+	width: 250px;
+	height: 100px;
+	float: left;
+	font-size: 15px;
+	font-family: "Uni Sans Book";
+	color:#C8B400;
+	text-align: right;
+
+}
+.compability4-2{
+	width: 250px;
+	height: 100px;
+	float: left;
+	font-size: 15px;
+	font-family: "Uni Sans Book";
+	color:#C8B400;
+	text-align: left;
+}

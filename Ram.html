@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="Ram-css.css" rel="stylesheet" type="text/css">
+	<link href="Corsair-css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="outer">
+		<div class="header" style="cursor: pointer;" onclick="window.location='Index.html';">
+			<video autoplay loop class="corsairLogo">
+			<source src="images/intro.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="videoRam">
+			<div class="videoRam0">
+				<span>DOMINATOR PLATINUM RGB DDR4 MEMORY</span>
+				<video autoplay loop class="videoRam1">
+					<source src="images/introRam.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="showRam">
+			<div class="showRam0">
+				<video autoplay loop class="showRam1">
+					<source src="images/showRam.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="showRam">
+			<div class="showRam0">
+				<video autoplay loop class="showRam1">
+					<source src="images/showbuss.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="showMode">
+			<div class="showMode0">
+				<video autoplay loop class="showMode1">
+					<source src="images/showMode.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="intel">
+			<div class="intel1 wow fadeInDown"></div>
+			<div class="intel2 wow fadeInDown"></div>
+			<div class="intel3">
+				<div class="intel3-1"><span>INTEL® XMP 2.0 SUPPORT</span></div>
+				<div class="intel3-2"><span>Simple one-setting installation.</span></div>
+				<div class="intel3-1"><span>WIDE COMPATIBILITY</span></div>
+				<div class="intel3-2"><span>Optimized for the latest Intel® and AMD DDR4 motherboards.</span></div>
+			</div>
+		</div>
+		<div class="warranty">
+			<div class="warranty1">
+				<div class="warranty2"><span>LIMITED LIFETIME WARRANTY</span></div>
+				<div class="warranty3"><span>FOR COMPLETE PEACE-OF-MIND</span></div>
+			</div>
+		</div>
+		<div class="compability">
+			<div class="compability1">
+				<span>COMPATIBILITY</span>
+			</div>
+			<div class="compability2">
+				<span>Intel 100 Series,Intel 200 Series,Intel 300 Series,Intel X299</span>
+			</div>
+			<div class="compability3">
+				<span>TECHNICAL SPECIFICATIONS</span>
+			</div>
+			<div class="compability4">
+				<div class="compability4-1">
+					<ul style="list-style-type: none">
+					<li>Memory Size: 16GB Kit (2 x 8GB)</li>
+					<li>Tested Latency: 15-17-17-35</li>
+					<li>Tested Voltage: 1.35V</li>
+					<li>Tested Speed: 3000MHz</li>
+				</ul>
+				</div>
+				<div class="compability4-2">
+					<ul style="list-style-type: none">
+					<li>Heat Spreader: Anodized Aluminum</li>
+					<li>Package Memory Format: DIMM</li>
+					<li>Performance Profile: XMP 2.0</li>
+					<li>Package Memory Pin: 288</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		<script src="dist/wow.js"></script>
+  
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	</div>
+	
+</body>
+</html>

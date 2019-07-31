@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+.outer{
+	width: 1340px;
+	height: 2000px;
+}
+.header{
+	width: 1340px;
+	height: 100px;
+}
+.header1{
+	width: 1340px;
+	height: 100px;
+}
+.body1{
+	width: 1340px;
+	height: 800px;
+	background-color: white;
+}
+.body1-1{
+	width: 670px;
+	height: 800px;
+	background-image: url("images/mm300.png");
+	float: right;
+	position: relative;
+	animation-name: sp120;
+  	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes sp120 {
+  0%   {bottom:-20px;opacity: 0}
+  100% {bottom:0px;opacity: 1}
+}
+.body1-2-1{
+	width: 640px;
+	height: 100px;
+	float: left;
+	margin-top: 350px;
+	position: relative;
+	animation-name: sp2;
+  	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes sp2 {
+  0%   {left:-20px;opacity: 0}
+  100% {left:0px;opacity: 1}
+}
+.body1-2-2{
+	width: 640px;
+	height: 50px;
+	float: left;
+	color:dimgray;
+	font-family: 'Uni Sans Book';
+	font-size: 20px;
+	text-align: right;
+}
+.body1-2-3{
+	width: 640px;
+	height: 50px;
+	float: left;
+	color: black;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: right;
+}
+.body2{
+	width: 1340px;
+	height: 500px;
+	background-color: whitesmoke;
+}
+.body2-1{
+	width: 670px;
+	height: 500px;
+	float: left;
+	background-image: url("images/mm3001.png");
+	position: relative;
+	animation-name: sp3;
+  	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes sp3 {
+  0%   {top:-50px;opacity: 0}
+  100% {top:0px;opacity: 1}
+}
+.body2-2-1{
+	width: 600px;
+	height: 200px;
+	float: right;
+	margin-top: 150px;
+}
+.body2-2-2{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:dimgray;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	animation-name: sp4;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+@keyframes sp4 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2-2-3{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: dimgray;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: left;
+	position: relative;
+	animation-name: sp5;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+@keyframes sp5 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2-2-4{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:dimgray;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	animation-name: sp6;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	opacity: 0;
+}
+@keyframes sp6 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2-2-5{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: dimgray;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: left;
+	position: relative;
+	animation-name: sp7;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+@keyframes sp7 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body3{
+	width: 1340px;
+	height: 500px;
+	background-color: white;
+}
+.body3-1{
+	width: 670px;
+	height: 500px;
+	float: right;
+	background-image: url("images/mm3002.png");
+	position: relative;
+	animation-name: sp8;
+  	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes sp8 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body3-2-1{
+	width: 600px;
+	height: 200px;
+	float: left;
+	margin-top: 150px;
+}
+.body3-2-2{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:dimgray;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: right;
+	position: relative;
+	animation-name: sp9;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+@keyframes sp9 {
+  0%   {left:-50px;opacity: 0}
+  100% {left:0px;opacity: 1}
+}
+.body3-2-3{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: dimgray;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: right;
+	position: relative;
+	animation-name: sp10;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+@keyframes sp10 {
+  0%   {left:-50px;opacity: 0}
+  100% {left:0px;opacity: 1}
+}
+.body3-2-4{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:dimgray;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: right;
+	position: relative;
+	animation-name: sp11;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	opacity: 0;
+}
+@keyframes sp11 {
+  0%   {left:-50px;opacity: 0}
+  100% {left:0px;opacity: 1}
+}
+.body3-2-5{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: dimgray;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: right;
+	position: relative;
+	animation-name: sp13;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+@keyframes sp13 {
+  0%   {left:-50px;opacity: 0}
+  100% {left:0px;opacity: 1}
+}
+.body4{
+	width: 1340px;
+	height: 300px;
+	background-color: #1E1E1E;
+}
+.body4-1{
+	width: 1340px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	font-family: "UniSansBook";
+	text-align: center;
+	line-height: 250px;
+	animation-name: sp14;
+  	animation-duration: 1s;
+	animation-timing-function:ease-in;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+@keyframes sp14 {
+  0%   {font-size:20px;opacity: 0}
+  30%  {font-size:28px;opacity: 1}
+  45%  {font-size:20px;opacity: 1}
+  60%  {font-size:23px;opacity: 1}
+  75%  {font-size:20px;opacity: 1}
+  90%  {font-size:21px;opacity: 1}
+  100% {font-size:20px;opacity: 1}
+
+}
+.body4-2{
+	width: 1340px;
+	height: 50px;
+	color: white;
+	font-size: 15px;
+	font-family: "UniSansBook";
+	text-align: center;
+	line-height: 250px;
+	animation-name: sp15;
+  	animation-duration: 1s;
+	animation-timing-function:ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+@keyframes sp15 {
+  0%   {font-size:15px;opacity: 0}
+  30%  {font-size:20px;opacity: 1}
+  45%  {font-size:15px;opacity: 1}
+  60%  {font-size:18px;opacity: 1}
+  75%  {font-size:15px;opacity: 1}
+  90%  {font-size:16px;opacity: 1}
+  100% {font-size:15px;opacity: 1}
+
+}

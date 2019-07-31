@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="MM300-css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/animate1.css">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="outer">
+		<div class="header1" style="cursor: pointer;" onclick="window.location='Index.html';">
+		<video autoplay loop class="header">
+			<source src="images/intro.mp4" type="video/mp4">
+		</video>
+		</div>
+		<div class="body1">
+			<div class="body1-1 wow fadeInDown"></div>
+			<div class="body1-2-1 wow fadeInDown">
+				<div class="body1-2-2"><span><b>SUPERIOR CONTROL FOR LETHAL IN-GAME ACCURACY.</b></span></div>
+				<div class="body1-2-3"><span>The MM300 provides a smooth, durable, cloth surface with reinforced stitched edges to avoid fraying. The textile-weave is designed with reflexes in mind, allowing precision mouse control, consistent accuracy and low friction.
+			</span></div>
+		</div>
+		</div>
+		<div class="body2">
+			<div class="body2-1 wow fadeInDown"></div>
+			<div class="body2-2-1">
+				<div class="body2-2-2 wow fadeInDown"><span><b>SUPERIOR CONTROL</b></span></div>
+				<div class="body2-2-3 wow fadeInDown"><span>The textile-weave surface is designed for pixel-precise targeting and low friction.
+				</span></div>
+				<div class="body2-2-4 wow fadeInDown"><span><b>NO FRAY, NO FUSS</b></span></div>
+				<div class="body2-2-5 wow fadeInDown"><span>The stitched edges guard against surface peeling.
+				</span></div>
+			</div>
+		</div>
+		<div class="body3">
+			<div class="body3-1 wow fadeInDown"></div>
+			<div class="body3-2-1">
+				<div class="body3-2-2 wow fadeInDown"><span><b>ACCURATE AND PRECISE</b></span></div>
+				<div class="body3-2-3 wow fadeInDown"><span>Bring your best gear, and bring your best game… MM300 is optimized for both laser and optical gaming mice.
+				</span></div>
+				<div class="body3-2-4 wow fadeInDown"><span><b>ZERO SLIP</b></span></div>
+				<div class="body3-2-5 wow fadeInDown"><span>The anti-skid rubber base helps it stay securely in place.
+				</span></div>
+			</div>
+		</div>
+		<div class="body4">
+			<div class="body4-1 wow fadeInDown"><span>TECHNICAL SPECIFICATIONS</span></div>
+			<div class="body4-2 wow fadeInDown"><span>Mat Size: Medium | 360mm x 300mm x 3mm</span></div>
+		</div>
+	</div>
+	<script src="dist/wow.js"></script>
+  
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>

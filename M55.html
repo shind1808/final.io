@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="M55-css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/animate1.css">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="outer">
+		<div class="header" style="cursor: pointer;" onclick="window.location='Index.html';">
+			<video autoplay loop class="corsairLogo">
+			<source src="images/intro.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="videoM55">
+			<div class="videoM55-0">
+				<video autoplay loop class="videoM55-1">
+					<source src="images/m55.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="body1">
+			<div class="body1-2"></div>
+			<div class="body1-3-1">
+				<div class="body1-3-2 wow fadeInDown"><span><b>PICK A SIDE</b></span></div>
+				<div class="body1-3-3 wow fadeInDown"><span>Weighing in at just 86g, the M55 RGB PRO's light and versatile ambidextrous design lets you play at your highest level with either hand using your most comfortable grip, be it palm, claw, or fingertip.
+					</span></div>
+			</div>
+		</div>
+		<div class="body2">
+			<div class="body2-2-1">
+				<div class="body2-2-2 wow fadeInDown"><span><b>PRECISION TO WIN</b></span></div>
+				<div class="body2-2-3 wow fadeInDown"><span>Take control over your gaming thanks to a 12,400 DPI optical sensor for high-accuracy tracking.
+				</span></div>
+				<div class="body2-2-4 wow fadeInDown"><span><b>BUILT TO LAST</b></span></div>
+				<div class="body2-2-5 wow fadeInDown"><span>Durable construction featuring 50 million click-rated Omron switches and a premium braided cable gives the M55 RGB PRO the strength to withstand years of intense gaming sessions.
+				</span></div>
+			</div>
+		</div>
+		<div class="body3">
+			<div class="body3-1">
+				<div class="body3-2 wow fadeInDown"></div>
+				<div class="body3-3">
+					<div class="body3-3-1 wow fadeInDown"><span>The M55 RGB PRO is a great lightweight mouse for the fast-paced gameplay of FPS games. It's comfortable to grip and fits my hand better than most of the other mice out there that I've tried.</span></div>
+					<div class="body3-3-2 wow fadeInDown"><span><i>George "KingGeorge" Kassa</i></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="body7">
+			<div class="body7-1 wow fadeInDown"></div>
+			<div class="body7-2 wow fadeInDown">
+				<div class="body7-2-1"><span><b>INTELLIGENT CONTROL. UNLIMITED POSSIBILITIES.</b></span></div>
+				<div class="body7-2-2"><span><b>Powerful CORSAIR iCUE software enables custom audio equalizer settings, sidetone control and immersive virtual surround audio.</b></span></div>
+			</div>
+		</div>
+	</div>
+	<script src="dist/wow.js"></script>
+  
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>

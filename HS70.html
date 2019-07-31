@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="HS70-css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="outer">
+		<div class="header1" style="cursor: pointer;" onclick="window.location='Index.html';">
+		<video autoplay loop class="header">
+			<source src="images/intro.mp4" type="video/mp4">
+		</video>
+		</div>
+		<div class="intro">
+			<div class="intro1">
+				<div class="intro1-1"><span><b>CRAFTED FOR COMFORT, BUILT FOR BATTLE</b></span></div>
+				<div class="intro1-2"><span>Plush memory foam and adjustable earcups provide exceptional comfort.</span></div>
+			</div>
+			<div class="intro2"></div>
+		</div>
+		<div class="body">
+			<div class="bodyVideo0">
+				<video autoplay loop class="bodyVideo1">
+					<source src="images/body.mp4" type="video/mp4">
+				</video>
+			
+			</div>
+		</div>
+		<div class="body1">
+			<div class="body1-1">
+				<div class="body1-1-1"><span>BUILT TO LAST</span></div>
+				<div class="body1-1-2"><span>Legendary CORSAIR build quality featuring metal construction ensures long-term durability.</span></div>
+			</div>
+		
+		</div>
+		<div class="body2">
+			<div class="body2-1">
+				<div class="body2-1-1"><span>PRECISION GAMING AUDIO</span></div>
+				<div class="body2-1-2"><span>Specially tuned 50mm neodymium speaker drivers deliver superior sound quality with wide range and accuracy.</span></div>
+				<div class="body2-1-3"><span>Virtual 7.1 surround delivers immersive multi-channel positional audio on PC that puts you in the middle of the action.</span></div>
+			</div>
+		</div>
+		<div class="body3">
+			<div class="body3-1">
+				<div class="body3-1-1"><span>SUPERIOR WIRELESS PERFORMANCE</span></div>
+				<div class="body3-1-2"><span>Low-latency, 2.4Ghz wireless audio with improved range up to 40ft and up to 16 hours of battery life.</span></div>
+			</div>
+		</div>
+		<div class="body4">
+			<div class="body4Video0">
+				<video autoplay loop class="body4Video1">
+					<source src="images/HS70Mic.mp4" type="video/mp4">
+				</video>
+			
+			</div>
+		</div>
+		<div class="body5">
+			<div class="body5-1 wow fadeInDown"></div>
+			<div class="body5-2 wow fadeInDown"></div>
+			<div class="body5-3">
+				<div class="body5-3-1"><span>SONY PLAYSTATION 4 COMPATIBLE</span></div>
+				<div class="body5-3-2"><span>Plug-and-play compatibility with Sony PlayStation 4 brings wireless stereo audio to your living room.</span></div>
+			</div>
+		</div>
+		<div class="body6">
+			<div class="body6-2"></div>
+			<div class="body6-1">
+				<div class="body6-1-1"><span>ON-EAR CONTROL</span></div>
+				<div class="body6-1-2"><span>Easy access on-ear volume and mute controls for adjustments on-the-fly.</span></div>
+			</div>
+		</div>
+		<div class="body7">
+			<div class="body7-1 wow fadeInDown"></div>
+			<div class="body7-2 wow fadeInDown">
+				<div class="body7-2-1"><span>INTELLIGENT CONTROL. UNLIMITED POSSIBILITIES.</span></div>
+				<div class="body7-2-2"><span>Powerful CORSAIR iCUE software enables custom audio equalizer settings, sidetone control and immersive virtual surround audio.</span></div>
+			</div>
+		</div>
+	</div>
+	<script src="dist/wow.js"></script>
+  
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>

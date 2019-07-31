@@ -1,0 +1,337 @@
+@charset "utf-8";
+.outer{
+	width: 1340px;
+	height: 3000px;
+}
+.header{
+	width: 1340px;
+	height: 100px;
+	float: left;
+
+}
+.corsairLogo{
+	width: 1340px;
+	height: 100px;
+
+}
+.videoM55{
+	widows: 1340px;
+	height: 700px;
+}
+.videoM55-1{
+	width: 1340px;
+	height: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	min-width: 100%;
+  	min-height: 100%;
+  	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+.videoM55-0{
+	width: 1340px;
+	height: 600px;
+	position: relative;
+  	overflow: hidden;
+	color: white;
+	font-family:"UniSansBold";
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	line-height: 1200px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
+}
+.videoM55-2{
+	width: 1340px;
+	height: 700px;
+	background-color: #E8BB00;
+}
+.body1{
+	width: 1340px;
+	height: 700px;
+	background-image: url("images/m55.jpg");
+}
+.body1-2{
+	width: 300px;
+	height: 400px;
+	background-image: url("images/m55.png");
+	float: left;
+	margin-left: 200px;
+	margin-top: 100px;
+	animation-name: m55;
+	position: relative;
+  	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+@keyframes m55 {
+  0%   {left:0px;}
+  50% {left:-100px;}
+  75% {left:100px;}
+  100% {left:0px}
+		
+}
+
+.body1-3-1{
+	width: 600px;
+	height: 200px;
+	float: right;
+	margin-top: 300px;
+	margin-right: 100px;
+}
+.body1-3-2{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:#00CED8;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	animation-name: sp4;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+@keyframes sp4 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body1-3-3{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: white;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: left;
+	position: relative;
+	animation-name: sp5;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+@keyframes sp5 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2{
+	width: 1340px;
+	height: 600px;
+	background-image:url("images/m55-1.jpg");
+}
+
+.body2-2-1{
+	width: 100px;
+	height: 200px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 600px;
+}
+.body2-2-2{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:#00CED8;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: right;
+	position: relative;
+	animation-name: sp4;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+@keyframes sp4 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2-2-3{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: white;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: right;
+	position: relative;
+	animation-name: sp5;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+@keyframes sp5 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2-2-4{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color:#00CED8;
+	font-family: 'Uni Sans Book';
+	font-size: 25px;
+	text-align: right;
+	position: relative;
+	animation-name: sp6;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	opacity: 0;
+}
+@keyframes sp6 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body2-2-5{
+	width: 600px;
+	height: 50px;
+	float: right;
+	color: white;
+	font-family: "UniSansThin";
+	font-size: 16px;
+	text-align: right;
+	position: relative;
+	animation-name: sp7;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+@keyframes sp7 {
+  0%   {right:-50px;opacity: 0}
+  100% {right:0px;opacity: 1}
+}
+.body3{
+	width: 1340px;
+	height: 600px;
+	background-image: url("images/m55-2.jpg");
+}
+.body3-1{
+	width: 400px;
+	height: 600px;
+	margin-left: 650px;
+}
+.body3-2{
+	width: 5px;
+	height: 300px;
+	background-color:#00CED8;
+	margin-top: 120px;
+	float: left;
+	position: relative;
+	animation-name: m555;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+@keyframes m555 {
+  0%   {top:-50px;opacity: 0}
+  100% {top:0px;opacity: 1}
+}
+.body3-3{
+	width: 360px;
+	height: 400px;
+	float: right;
+	margin-top: 120px;
+}
+.body3-3-1{
+	width: 360px;
+	height: 300px;
+	color: white;
+	font-family: "Uni Sans Book";
+	font-size: 30px;
+	padding-top: 20px;
+	position: relative;
+	animation-name: m5555;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+.body3-3-2{
+	width: 360px;
+	height: 100px;
+	color: white;
+	font-family: "Uni Sans Book";
+	font-size: 18px;
+	text-align: right;
+	position: relative;
+	animation-name: m5555;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+@keyframes m5555 {
+  0%   {left:-50px;opacity: 0}
+  100% {left:0px;opacity: 1}
+}
+.body7{
+	width: 1340px;
+	height: 500px;
+	background-image: url("images/m55-3.jpg");
+}
+.body7-1{
+	width: 150px;
+	height: 150px;
+	background-image: url("images/icue.png");
+	margin-left: 595px;
+	position: relative;
+	animation-name: icue;
+  	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes icue {
+  0%   {top:0px;opacity: 0}
+  100% {top:70px;opacity: 1}
+}
+.body7-2{
+	width: 1200px;
+	height: 150px;
+	position: relative;
+	animation-name: icue1;
+  	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.body7-2-1{
+	width: 1200px;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	font-family: UniSansThin;
+	text-align: center;
+	float: left;
+	line-height: 100px;
+}
+.body7-2-2{
+	width: 1200px;
+	height: 100px;
+	color: white;
+	font-size: 18px;
+	font-family: UniSansThin;
+	text-align: center;
+	float: left;
+	line-height: 100px;
+}
+@keyframes icue1 {
+  0%   {top:90px;left: 0px; opacity: 0}
+  100% {top:90px;left: 70px; opacity: 1}
+}
